@@ -16,7 +16,7 @@ client = discord.Client()
 prefix = "!miyu"
 
 # messages
-bienvenida = "Hola!, los comandos disponibles son \' ping \' "
+bienvenida = "Hola!, los comandos disponibles son:  \' ip \' "
 
 def get_ip():
     ip = requests.get('https://api.ipify.org?format=json')
